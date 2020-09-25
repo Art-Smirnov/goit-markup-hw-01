@@ -5,59 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body>
+  <body">
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="/">WebStuduio</a>
-        <ul>
-          <li><a href="/">Студия</a></li>
-          <li><a href="/">Портфолио</a></li>
-          <li><a href="/">Контакты</a></li>
+        <a href="/" class="logo">WebStuduio</a>
+        <ul class="site-nav list">
+          <li><a href="/" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="/" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <address class="header-contacts">
+        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
       </address>
     </header>
     <main>
-      <!-- герой -->
-      <section>
-        <h1>
+      <!-- Герой -->
+      <section class="hero">
+        <h1 class="hero-title">
           Эффективные решения<br />
           для вашего бизнеса
         </h1>
-        <a href="/">Заказать услугу</a>
+        <a href="/" class="button">Заказать услугу</a>
       </section>
       <!-- Преймущества -->
-      <section>
+      <section class="section">
         <h2>Преймущества</h2>
-        <ul>
+        <ul class="features list">
           <li>
-            <h3>Внимание к деталям</h3>
+            <h3 class="section-title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
+            <h3 class="section-title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
+            <h3 class="section-title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
+            <h3 class="section-title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -66,9 +68,9 @@
         </ul>
       </section>
       <!-- Деятельность -->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="list">
           <li>
             <img
               src="./img/programer.jpg"
@@ -93,16 +95,16 @@
         </ul>
       </section>
       <!-- Персонал -->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="list">
           <li>
             <img
               src="./img/demyadenko.jpg"
               alt="Парень в очках и коричневой рубаше"
               width="270"
             />
-            <h3>Игорь Демьяненко</h3>
+            <h3 class="section-title">Игорь Демьяненко</h3>
             <p>Product Designer</p>
           </li>
           <li>
@@ -111,7 +113,7 @@
               alt="Светловолосая девушка в очках"
               width="270"
             />
-            <h3>Ольга Репина</h3>
+            <h3 class="section-title">Ольга Репина</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
@@ -120,7 +122,7 @@
               alt="Парень в голубой рубашке"
               width="270"
             />
-            <h3>Николай Тарасов</h3>
+            <h3 class="section-title">Николай Тарасов</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -129,7 +131,7 @@
               alt="Парень с бородой и в очках"
               width="270"
             />
-            <h3>Михаил Ермаков</h3>
+            <h3 class="section-title">Михаил Ермаков</h3>
             <p>UI Designer</p>
           </li>
         </ul>
